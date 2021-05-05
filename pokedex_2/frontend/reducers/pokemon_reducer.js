@@ -1,4 +1,5 @@
-import { RECEIVE_ALL_POKEMON } from './../actions/pokemon_actions';
+import { RECEIVE_ALL_POKEMON, RECEIVE_A_POKEMON } from './../actions/pokemon_actions';
+ 
 
 
 const pokemonReducer = (state = {}, action) => {
