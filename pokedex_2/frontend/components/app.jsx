@@ -1,6 +1,7 @@
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import React from "react";
 import PokemonIndexContainer from "./pokemon/pokemon_index_container";
+import PokemonDetail from "./pokemon/pokemon_detail"
 
 const App = () => (
     <Switch>
