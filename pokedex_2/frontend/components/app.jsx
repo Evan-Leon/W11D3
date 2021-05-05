@@ -3,7 +3,10 @@ import React from "react";
 import PokemonIndexContainer from "./pokemon/pokemon_index_container";
 
 const App = () => (
-    <Route path="/" component={PokemonIndexContainer} />
+    <Switch>
+       <Route path="/pokemon/:id" component={PokemonDetail} />
+       <Route path="/" component={PokemonIndexContainer} />
+     </Switch>
 );
 
 export default App;
