@@ -1,11 +1,11 @@
 import { Route, Switch } from "react-router-dom";
 import React from "react";
 import PokemonIndexContainer from "./pokemon/pokemon_index_container";
-import PokemonDetail from "./pokemon/pokemon_detail"
+import PokemonDetailContainer from "./pokemon/pokemon_detail_container";
 
 const App = () => (
     <Switch>
-       <Route path="/pokemon/:id" component={PokemonDetail} />
+       <Route path="/pokemon/:id" component={PokemonDetailContainer} />
        <Route path="/" component={PokemonIndexContainer} />
      </Switch>
 );
